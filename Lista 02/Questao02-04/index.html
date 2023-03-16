@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            display: inline-block;
+            text-align: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            border: 2px solid black;
+            margin: 3px;
+            line-height: 50px;
+        }
+
+        div{
+            margin-top: 10px;
+        }
+
+        #id1 span:first-child:hover {
+            background-color: red;
+        }   
+
+        #id2 span:last-child:hover {
+            background-color: green;
+        }
+        
+        #id3 span:nth-child(2):hover {
+            background-color: blue;
+        }
+
+        #id4 span:nth-child(5):hover {
+            background-color: palevioletred;
+        }
+
+        #id5 span:nth-child(odd):hover {
+            background-color: yellow;
+        }
+
+        #id6 span:nth-child(even):hover {
+            background-color: orange;
+        }
+
+        #id7 span:nth-child(4):hover {
+            background-color: pink;
+        }
+
+        #id8 span:nth-child(2):hover, #id8 span:nth-child(5):hover {
+            background-color: royalblue;
+        }
+
+        #id9 span:first-child:hover, #id9 span:nth-child(4):hover {
+            background-color: grey;
+        }
+
+        #id10 span:nth-last-child(-n+3):hover  {
+            background-color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div id="id1"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id2"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id3"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id4"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id5"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id6"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id7"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id8"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id9"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+    <div id="id10"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span></div>
+</body>
+</html>
