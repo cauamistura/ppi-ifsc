@@ -1,0 +1,14 @@
+2.efina o pai deles como um container flex, o oque ocorreu com a exibição destes
+elementos?
+
+R: Ao definir o elemento pai (.container) como um container flex, todos os elementos filhos 
+(div e span) se tornam flex items e são posicionados de acordo com as propriedades de layout 
+flexíveis. No caso deste exemplo, todos os elementos filhos são definidos com a mesma largura 
+e altura, o que significa que eles serão exibidos em uma grade uniforme no container flex.
+
+3. Se você adicionar mais itens até ultrapassar a largura da viewport, o que ocorre?
+
+R:Com a propriedade flex-wrap definida como wrap, os elementos filhos serão envolvidos 
+para a próxima linha se não houver mais espaço horizontal disponível no container flex. 
+Isso permite que mais elementos sejam adicionados sem estourar a largura do container e 
+causar problemas de layout.

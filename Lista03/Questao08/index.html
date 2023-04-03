@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .calculator {
+            background-color: grey;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .display {
+            background-color: white;
+            padding: 10px;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        .display input[type="text"] {
+            background-color: transparent;
+            border: none;
+            font-size: 24px;
+            color: #fff;
+            width: 100%;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        .line {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #eee;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            padding: 10px;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+        }
+
+        button.wide {
+            width: 110px;
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #ccc;
+            color: #333;
+        }
+
+        button:active {
+            background-color: #aaa;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" placeholder="0">
+        </div>
+        <div class="buttons">
+            <div class="line">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>/</button>
+            </div>
+            <div class="line">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>*</button>
+            </div>
+            <div class="line">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>-</button>
+            </div>
+            <div class="line">
+                <button>0</button>
+                <button>.</button>
+                <button>=</button>
+                <button>+</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

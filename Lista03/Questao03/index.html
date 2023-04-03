@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .col-1,
+        .col-3 {
+            width: 25%;
+            background-color: #eee;
+        }
+
+        .col-2 {
+            flex-grow: 1;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-1">
+            <h2>Coluna 1</h2>
+            <p>Conteúdo da primeira coluna aqui</p>
+        </div>
+        <div class="col-2">
+            <h2>Coluna 2</h2>
+            <p>Conteúdo da segunda coluna aqui</p>
+        </div>
+        <div class="col-3">
+            <h2>Coluna 3</h2>
+            <p>Conteúdo da terceira coluna aqui</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
