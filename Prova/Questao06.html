@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('https://ufanismonfl.files.wordpress.com/2015/04/feliz-pascoa-2011.jpg?w=1250');
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #ff9999;
+            padding: 20px;
+            flex-basis: 100%;
+            border-radius: 20px;
+        }
+
+        .content {
+            background-color: #99cc99;
+            padding: 300px;
+            flex-basis: 75%;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        .menu {
+            background-color: #66ccff;
+            flex-basis: 25%;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        .footer {
+            background-color: #cccccc;
+            padding: 20px;
+            flex-basis: 100%;
+            border-radius: 20px;
+        }
+        #chat{
+            position: fixed;
+            right: 1%;
+            top: 85%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Header</h1>
+        </div>
+        <div class="menu">
+            <h1>Left Navigation</h1>
+        </div>
+        <div class="content">
+        </div>
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+        <div id="chat">
+            <textarea name="" id="" cols="50" rows="4"></textarea>
+            <br>
+            <button>Enviar</button>
+        </div>
+    </div>
+</body>
+
+</html>

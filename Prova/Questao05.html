@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        #container{
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 5px black;
+            border-radius: 20px;
+            width: 15rem;
+            height: 300px;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAh1BMVEXv7+8cHBwAAADx8fH39/f09PQaGhoJCQnt7e35+fkWFhYeHh6FhYWurq4YGBj///8QEBC8vLx7e3uenp7i4uLPz89qampMTEy3t7c6OjqBgYHFxcXX19eNjY3h4eFXV1crKyspKSlsbGxCQkKjo6M0NDSTk5NSUlJfX1+wsLA/Pz90dHRHR0fQIxHLAAAIy0lEQVR4nO2dC1PyOhCG292kTRqggVJuLQgKiOL//30nKVe1QMunpuHkGWdQ1Jm+bLKXJNt6nsPhcDgcDofD4XA4HA6Hw+FwOBwOh8PhcDgcDofD4XD8AohIFeoFTV/Kb4CUYD/Nuu23LMsZJUqop79MX9fPgEhoOn0VcGS+WWfIH0SeEshnLR/CKPB9X/i+fulIgHCbcWr62n4C5PkAQi3rC4GE+Ruxf05SOgUpvuvbiYRVRiyXSGfvsBuc5UTQQ6uHKk2lvCRuD4xnFktE5kc3BPpCitxWiejRN7gp0BdRlNvqbxhdw8UZeD4ZF8xShZRPwioKfTnkpq/1Lkj+WsmECljbKJGv4ZYfPZM4s2+c8tZNL3Mk8OXGuiwV0+oCdUIAuW0K+aD6ENWEW2L6kuuBrIYJdxItixjYhZJy4hrQpRbVw+iRaVhPoAgndvka8nQzIf2CHFKLFCLiqlPThoGwayL2aw5SFTCgb5FCxFldV2pbRMS8akZ6ZkObFOL/QKEapfUkCp18WyTR698xD63yNJ43r5nS+IEq9C2S6JFhzYgvOi9WrUdhPKlXWqicZhsjM33d1cH1S1TTmUavG4ucKV9D3bRUL38/2bNYE7/WF6gkvtijkNf1MwXSIhvybbV10k8I2bNHIV3WD/gq5Cf2xAuVlt6jsGuPL0X6XrMALhTalLZV2HT6hny1ZxoqcHxxa7scIWBkzzT0ai55F4RPli0Jk5ruNFzZtRClLpYn1SUKy9YS98TT6hKjFfEsKix2MKTzyiEDMpuW9I+QVtVF087crhX9A3RUdZjalJF+ovKyMIysNKEapqugypqi8EOb8rVzeLWJGER25WsnELMqK98qX1tala+d0KumlWp9q4qKTzA1TG8bUcgBtzEYeoUNq3jTADI79WmQbG4vDAfvls5CDatSRFkbDDWI/KYRo3e7T7Pj7FbA0Em3xSgjrq+P03BjabQ/gEjGl2OiUPmMdWXhV64eyxC2j9ECpNkliUpgYmuwP6LdJBlBIEo2vVVC2tKT0G6JRSCgXSjdL4WWbgmyukUPST7TAkgqvtdRHUiKnifW1wul9qnULpLSBIak+I5t4NT9pF8FiIwX4WQKS2LhUqK6dMq7K/ChFxc/6x+OYUO5GJjsOrqI8kMwHhHbxqoyDWsvtKRAjUVtUPXO6AkglFKGAEGrz4uRSYt9uAgWS88er4oMKUl7cDAZtPdLhZSz0fR5s+klKS1moLJbX+x8UAdgmxKCViztU95PxhAeZ10Ab4cuSjV0iYIeUm06mx8ScxFIGCf9pvfN6mFHs0GogoM4zTkflocF39MLFkN0IQ8fhCgGazjIKG1sqaEvmzNlvu/1EkzL0mueyW9hUhuS7aJkA0Hen4TF7PsW3mHzrRcWSQKdL3+5N6RyQ80TqFwE6fd0z7YQoiR/CRcq+p2fW/scIY8S9T8HIfS0xoapJGwKV9Z/RQTb01UjpcurjW0hTFmztoRVsBNXi3n1uzBszbj2o5Tj2/hqh3eR8oyaM1RRDblBlSYggNd1N03feosKB/sCGLCGbCqix9NFtV0mNVY1ZXdYKCGcp6QRElHVf5UP6hVeqMwVlfyl+jzeGjBSkfGkbptaZVRSy83ncbxaR/p9CN0CbVgiadftrKilUKik1qzA+mefahJAatSGyMQ9p4HrEAmjw5QP7jgMXA8RPhtcFaddKFsm/FECYXB/EekqqhTb/gkRjY2VxbRdUh78uEBdQRuSiLj6bTezI1oZKvsvb0j8MEL36v89KuF+rtu9dS9mTmswD8Nfn4QHwDNw/BRRhYo/U2iiFQOrHx/9AYVTEzsb8ZXt658meon/XqCHf+RJC8BAhXFfb9PdCvsGFHb/VKGBGgrv6sC7W6GBo2G0RsfIDyg00JtY+y5C/0TY+ntXQyZ/q9CADZ1Cp7Cmwkefh7B+eBsaUEjvU1i6Q3wbE0s19xZP960+mljHoHdE/Gh/W/36ZZeJvLRu1qaPBH0k6aw/S5fDGnen3Ss00DhU+94XsMnjuJ9maT+O80Hdfzaw2FarehIigFHMkkUxSMWaxd3vp4WuEMwN1Piszg3L1BDN4zZApxNJ2fEBlvGs06kqUfhyY0Ah8ucaEiHlE1CeZr7ZblYgA9iSvPrmuKnmLxxU3P7VZ/LjFvjwkZE4jnn6VJysbVf9hKJwZGYjGHlSfkL9m8BozPVR4BbH9vPTYMli5Yehy186FayoZvA4N7bTzdNVFTsIeIvnHWW1XICMJIRZvIaO4N0qZxyKJ2CY2wVGom+8fiMRC4KAZRAsaK7PnQZCKc74MIKud2N7VT+UBuZpbPY0BpltQN6YjtFTvJVqKg4PYzpa0C7I5/h6657SDzIhho9+IXo8e4LoqjFgGq86MMsPjkkIZb8wWsXX+9oCgClrRJ8CJUqjPqt2wZICEi47Etun5z3BlI9lyC+mRcX4jKb9xjxmB0muhuGlfDpapFSJonn3RMrH6p30Uje7Pta+ZMaPQ52DvN/+uFA0wIyw0WjE2NkeIGNd9Q6fldYnEuQ2JToTbZBCbUeeJ8owuyl5NmCjDxXty2nFZ7cfFIVPVsEENkp7E7sSmIeUz5YbdYmfXGT0cen+GOEnhTt1817Xixvbj7DrdsI02QjYP2dtb8ODQlGiUL8XaHHw0mvnnGDRONNcjbvGGJqPpk+6VApVDnOmUM2xUH5SKAttYthbpozw5naTfEY/15By4vWzdmvwIt5PCoN5b9I73nJfKfyYv26Tbu6R/QMR7RDo7ftCtU6ihZ4WrcJ1xrL14bRf2CKMcr6/44C9z3vE45kGITcJQZIcHtASthoT0f+Rk8LBV4WmL+2HOI1SmKY0nYJ4XIXyeURGx8Nij6gQeoz3e/C4CoNFsl6vk+hhFQp/MfwYDofiYRXqFC6KgmO5/DAKL57xe5h4iHxyoXqaPIgNPczb5Vj0MIQbFM9UL+FhBDocDofD4XA4HA6Hw+FwOBwOh8PhcDgcDofD4XA4HI6m8B9SGX97RHG3IAAAAABJRU5ErkJggg==');
+        }
+        .card:hover{
+            filter: blur(1px)
+        }
+        .botao{
+            background-color: blueviolet;
+            border: solid 5px blueviolet;
+            color: white;
+            border-radius: 3px;
+            opacity: 0;
+        }
+        .botao:hover{
+            opacity: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="card">
+            <button class="botao">Acessar</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+R:São padrões de elementos e outros termos que informam ao navegador quais 
+elementos HTML devem ser selecionados para que os valores de propriedade CSS 
+dentro da regra sejam aplicados a eles, exemplos são as classes e ids

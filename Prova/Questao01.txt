@@ -1,0 +1,4 @@
+R: A Internet é uma rede global que liga redes de computadores, 
+já a Web é uma teia de páginas contendo texto, imagens, som tendo ligações 
+diferenciadas entre si, disponíveis em computadores presentes na Internet, 
+já a requisição http são mensagens enviadas pelo cliente para iniciar uma ação no servidor
