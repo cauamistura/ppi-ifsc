@@ -1,0 +1,9 @@
+1) Explique como JavaScript pode ser executado, apresente um print com uma menssagem
+exemplificando a execução de um Hello. 
+
+R: É uma linguagem de programação que pode ser executada em um navegador web ou em um ambiente de 
+servidor Node.js. Para executar um Hello basta incluir um 
+	<script>
+		alert("Hello, world!");
+	</script>
+     

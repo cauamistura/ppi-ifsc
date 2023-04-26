@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mudaPosicao {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="mudaPosicao">Passe o mouse aqui</button>
+
+    <script>
+        const mudaPosicao = document.getElementById("mudaPosicao");
+
+        mudaPosicao.addEventListener("mouseover", function () {
+            const novaPosicaoX = Math.floor(Math.random() * (window.innerWidth - mudaPosicao.clientWidth));
+            const novaPosicaoY = Math.floor(Math.random() * (window.innerHeight - mudaPosicao.clientHeight));
+            mudaPosicao.style.top = novaPosicaoY + "px";
+            mudaPosicao.style.left = novaPosicaoX + "px";
+        });
+
+    </script>
+</body>
+
+</html>
