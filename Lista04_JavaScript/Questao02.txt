@@ -6,20 +6,20 @@ R: Ele tem acesso a várias variáveis de ambiente e recursos por meio do objeto
 Aqui estão alguns exemplos das principais propriedades e funções dos objetos window, document, location e history:
 
 window: O objeto window representa a janela do navegador e contém muitas propriedades e métodos úteis.
- Algumas propriedades comuns incluem:
+Algumas propriedades comuns incluem:
 
 window.innerWidth e window.innerHeight: retornam a largura e a altura da janela do navegador em pixels;
 window.document: retorna o objeto document, que representa a página HTML carregada na janela do navegador;
-window.alert(): exibe uma caixa de diálogo de alerta com uma mensagem para o usuário;
-window.setTimeout(): aguarda um certo número de milissegundos antes de executar uma função.
+window.alert: exibe uma caixa de diálogo de alerta com uma mensagem para o usuário;
+window.setTimeout: aguarda um certo número de milissegundos antes de executar uma função.
 
 document: O objeto document representa a página HTML carregada na janela do navegador e oferece 
 acesso aos elementos HTML na página. Algumas propriedades e métodos comuns incluem:
 
-document.getElementById(): retorna o elemento HTML com o ID especificado;
-document.querySelector(): retorna o primeiro elemento HTML que corresponde ao seletor CSS especificado;
-document.createElement(): cria um novo elemento HTML;
-document.write(): escreve texto ou HTML na página.
+document.getElementById: retorna o elemento HTML com o ID especificado;
+document.querySelector: retorna o primeiro elemento HTML que corresponde ao seletor CSS especificado;
+document.createElement: cria um novo elemento HTML;
+document.write: escreve texto ou HTML na página.
 
 location: O objeto location representa a URL atual da página e oferece acesso a várias informações sobre a URL.
  Algumas propriedades e métodos comuns incluem:
@@ -27,12 +27,12 @@ location: O objeto location representa a URL atual da página e oferece acesso a
 location.href: retorna a URL completa da página;
 location.hostname: retorna o nome do host da URL;
 location.pathname: retorna o caminho da página na URL;
-location.reload(): recarrega a página.
+location.reload: recarrega a página.
 
 history: O objeto history representa o histórico de navegação do usuário e oferece acesso a várias informações sobre 
 as páginas visitadas anteriormente. Algumas propriedades e métodos comuns incluem:
 
 history.length: retorna o número de páginas no histórico de navegação;
-history.back(): retorna para a página anterior no histórico de navegação;
-history.forward(): avança para a próxima página no histórico de navegação;
-history.go(): navega para uma página específica no histórico de navegação.
+history.back: retorna para a página anterior no histórico de navegação;
+history.forward: avança para a próxima página no histórico de navegação;
+history.go: navega para uma página específica no histórico de navegação.

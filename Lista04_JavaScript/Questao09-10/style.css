@@ -1,0 +1,50 @@
+.container_input{
+    display: flex;
+    justify-content: center;
+}
+
+#listItem {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#listItem li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#textInsert {
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#btnAdd {
+    background-color: #0000FF;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnAdd:hover {
+    background-color: #191970;
+}
+
+.btn-remover {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.btn-remover:hover {
+    background-color: #c50000;
+}
