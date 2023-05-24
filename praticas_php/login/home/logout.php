@@ -1,0 +1,12 @@
+<?php
+
+include_once "../database/db.php";
+
+session_start();
+session_destroy();
+
+echo "<script>
+        window.location.href='../index.html';
+      </script>";
+
+?>
